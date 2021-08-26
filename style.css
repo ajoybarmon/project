@@ -1,0 +1,79 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  margin: 0;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  color: rgb(39, 47, 73);
+}
+.line-color {
+  color: blueviolet;
+}
+.half-width,
+.half-width-2 {
+  width: 40%;
+  float: left;
+  margin: 3%;
+  padding: 2%;
+}
+.half-width img {
+  width: 100%;
+}
+.top-banner {
+  background-image: url("images1/top-banner.png");
+  background-repeat: no-repeat;
+  height: 500px;
+}
+.link-btn {
+  background-image: linear-gradient(45deg, yellow, red);
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+}
+.down-side {
+  background-image: url("images1/dream-bg.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  height: 1000px;
+}
+.half-width-2 {
+  margin-top: 200px;
+}
+.bordering {
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 10px;
+  -webkit-border-radius: ;
+  -moz-border-radius: ;
+  -ms-border-radius: ;
+  -o-border-radius: ;
+  height: 40%;
+  width: 35%;
+  margin-left: 80px;
+  background-color: white;
+}
+.exp-area {
+  background-image: url(images1/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+
+  height: 600px;
+}
+#full-stack {
+  border-left: 7px solid;
+  border-image: linear-gradient(yellow, rgb(235, 140, 62));
+  border-image-slice: 1;
+}
+#baby-wd {
+  border-left: 7px solid;
+  border-image: linear-gradient(pink, blue);
+  border-image-slice: 1;
+}
+footer p {
+  text-align: center;
+  font-size: 15px;
+}
